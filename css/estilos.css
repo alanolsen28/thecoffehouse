@@ -199,14 +199,6 @@ footer {
 
 /*   VIDEOS DE MEDIA   */
 
-.media {
-
-   margin: 50px;
-   align-items: center;
-   border-radius: 1cm;
-   
-
-}
 
 .video {
    border-radius: 1cm;
@@ -218,8 +210,6 @@ footer {
 /*   CONCTACTO   */
 
  .contacto {
-
-
 
     display: flex;
     justify-content: center;
