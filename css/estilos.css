@@ -4,6 +4,7 @@
    text-decoration: none;
    list-style: none;
    font-family: 'Nunito', sans-serif;
+   box-sizing: border-box;
 }
 
 
@@ -11,6 +12,7 @@ body {
 
    background-image: linear-gradient(to right top, #1d2526, #252f2c, #313930, #424134, #55493c);
    background-size: cover;
+   background-position: center;
    padding-bottom: 1em;
 }
 
@@ -140,7 +142,7 @@ main {
 }
 
 .btn {
-   text-decoration: none;
+
    border-radius: 1cm;
    padding: 15px;
    margin: 10px;
@@ -209,24 +211,90 @@ footer {
 
 /*   CONCTACTO   */
 
- .contacto {
+.contacto {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #55493c;
-    margin: 40px;
-    border-radius: 2cm;
-    font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   background-color: #55493c;
+   margin: 40px;
+   border-radius: 2cm;
+   font-size: 20px;
 
- }
+}
 
 .form {
    padding: 5px;
    margin: 10px;
 
 }
+
+/* CONTACTO */
+
+.hero {
+   width: auto;
+   height: auto;
+   padding: 30px;
+   margin: 30px;
+   border-radius: 1cm;
+   background-color: #998774;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+form {
+
+   width: 100%;
+   max-width: 600px;
+
+
+}
+
+.input-group {
+
+   margin-bottom: 30px;
+   position: relative;
+
+}
+
+input,
+textarea {
+   width: 100%;
+   padding: 10px;
+   outline: 0;
+   border: 1px solid #fff;
+   color: "fff";
+   font-size: 15px;
+   border-radius: .5cm;
+
+}
+
+label {
+
+   height: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   padding: 10px;
+
+
+}
+
+.btn__contacto {
+
+   border-radius: 1cm;
+   padding: 10px;
+   margin: 5px;
+   cursor: pointer;
+   color: #dbc596;
+   background-color: #1D2526;
+   width: 100%;
+
+   
+}
+
 
 
 /* RESPONSIVE */
