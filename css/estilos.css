@@ -108,7 +108,6 @@ header {
    text-align: center;
    border-radius: 1cm;
    margin: 40px;
-   width: 100%;
 
 }
 
@@ -123,7 +122,6 @@ main {
    display: flex;
    flex-direction: column;
    margin: 20px;
-   width: 100%;
 
 }
 
@@ -137,7 +135,7 @@ main {
    align-items: center;
    text-align: center;
    padding: 40px;
-   width: 100%;
+
 
 }
 
@@ -204,7 +202,7 @@ footer {
    align-items: center;
    text-align: center;
    padding: 10px;
-   width: 100%;
+   width: auto;
 
 }
 
