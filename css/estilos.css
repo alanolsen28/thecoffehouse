@@ -53,6 +53,7 @@ header {
    flex-direction: row;
    justify-content: space-between;
    justify-content: center;
+   width: 100%;
 
 }
 
@@ -60,6 +61,7 @@ header {
 
    width: 100px;
    border-radius: 2cm;
+
 }
 
 .nav-link {
@@ -106,6 +108,7 @@ header {
    text-align: center;
    border-radius: 1cm;
    margin: 40px;
+   width: 100%;
 
 }
 
@@ -120,6 +123,7 @@ main {
    display: flex;
    flex-direction: column;
    margin: 20px;
+   width: 100%;
 
 }
 
@@ -133,12 +137,15 @@ main {
    align-items: center;
    text-align: center;
    padding: 40px;
+   width: 100%;
+
 }
 
 
 .imagenhome {
    border-radius: 1cm;
    width: 50%;
+
 }
 
 .btn {
@@ -150,6 +157,7 @@ main {
    cursor: pointer;
    color: #dbc596;
    background-color: #1D2526;
+   width: 100%;
 }
 
 
@@ -158,6 +166,7 @@ main {
 footer {
 
    grid-area: footer;
+   width: 100%;
 
 
 }
@@ -184,6 +193,7 @@ footer {
    border-radius: 1cm;
    font-size: 30px;
    z-index: 1;
+
 }
 
 .redes a {
@@ -199,36 +209,11 @@ footer {
 
 }
 
-/*   VIDEOS DE MEDIA   */
-
-
 .video {
    border-radius: 1cm;
-   padding: 20px;
-
-}
-
-
-/*   CONCTACTO   */
-
-.contacto {
-
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 20px;
-   background-color: #55493c;
-   margin: 40px;
-   border-radius: 2cm;
-   font-size: 20px;
-
-}
-
-.form {
    padding: 5px;
-   margin: 10px;
-
 }
+
 
 /* CONTACTO */
 
